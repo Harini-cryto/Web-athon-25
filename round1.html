@@ -1,0 +1,440 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Round-1
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+         body {
+            background-color:rgb(0, 128, 128);
+            color:white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            color: rgb(123, 10, 175);
+            text-shadow: 2px 2px 4px #eac1eb;
+            animation: pulse 2s infinite;
+        }
+
+        h2 {
+            color: rgb(229, 75, 9);
+        }
+
+        h3 {
+            color: #08a197;
+        }
+
+        h4 {
+            color: rgb(249, 139, 14);
+        }
+
+        h5{
+            color: #083928;
+        }
+ 
+            img {
+            border: 5px solid #fff;
+            border-radius: 15px;
+            transition: transform 3s ease;
+        }
+
+    img:hover {
+            transform: scale(5,5);
+    }
+
+   .container {
+            border: 3px dashed white;
+            padding: 20px;
+            margin-top: 20px;
+    }
+
+    table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: white;
+    }
+
+    table, th, td {
+            border: 2px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        </style>
+        <script>
+        function addNumbers() {
+            let n1 = parseFloat(document.getElementById("num1").value);
+            let n2 = parseFloat(document.getElementById("num2").value);
+            let res = n1 + n2;
+            document.getElementById("result").innerText = "Result: " + res;
+        }
+    </script>
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <h1>DR.A.P.J.ABDUL KALAM</h1>
+            </center>
+            <h2>Introduction</h2>
+            <p style="font-size:large;">Dr. Avul Pakir Jainulabdeen Abdul Kalam, fondly remembered as the Missile Man of India and the People’s President, was one of the most inspiring personalities of modern India. He was a scientist, a teacher, a visionary, and above all, a humble human being who dedicated his entire life to the service of the nation. His journey from a small town boy in Rameswaram to becoming the 11th President of India remains an inspiring story for millions.</p>
+            <img src="aPJ1.jpg "alt="ABDULKALAM'S PHOTO" width="200" height="200">
+            <img src="aPJ2.jpg "alt="ABDULKALAM'S PHOTO" width="200" height="200">
+             <img src="QOUTE.jpg"alt="HIS WORDS" width="200" height="200">
+
+            <h3>Life History</h3>
+            <p>Dr. Avul Pakir Jainulabdeen Abdul Kalam, popularly known as the Missile Man of India, was born on 15 October 1931 in Rameswaram, Tamil Nadu. Coming from a simple family, he supported his studies by selling newspapers as a boy. He completed his education in aeronautical engineering at the Madras Institute of Technology.
+
+Dr. Kalam joined ISRO, where he was the project director of India’s first satellite launch vehicle SLV-3. Later, as part of DRDO, he played a key role in developing the Agni and Prithvi missiles, which earned him the title Missile Man of India. He also contributed to the success of the Pokhran-II nuclear tests in 1998.
+
+In 2002, he became the 11th President of India and was lovingly called the People’s President. Though he faced failures, like being rejected as a fighter pilot and experiencing failed rocket launches, he never gave up. Instead, he saw failure as “First Attempt In Learning.”
+
+Dr. Kalam received many awards, including the Bharat Ratna. He wrote inspiring books like Wings of Fire and Ignited Minds. He passed away on 27 July 2015 while addressing students, leaving behind a legacy of knowledge, humility, and inspiration.
+</p>
+            <table>
+            <tr>
+                <th>AWARDS</th>
+                <th>YEAR</th>
+                <th>PURPOSE</th>
+                
+            </tr>
+            <tr>
+                <td>Padma Bhushan</td>
+                <td>1981</td>
+                <td>His early contributions at ISRO and DRDO</td>
+            </tr>
+            <tr>
+                <td>Padma Vibhushan</td>
+                <td>1990</td>
+                <td>iHs exceptional achievements in aerospace engineering</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Bharat Ratna</td>
+                <td>1997</td>
+                <td>His outstanding contribution to science, engineering, and defense</td>
+            </tr>
+             <tr>
+                <td>Indira Gandhi Award for National Integration</td>
+                <td>1997</td>
+                <td>For promoting unity, peace, and national integration</td>
+            </tr>
+             <tr>
+                <td>Veer Savarkar Award</td>
+                <td>1998</td>
+                <td>For his role in strengthening India’s defense and self-reliance.</td>
+            </tr>
+            <tr>
+                <td>Ramanujan Award</td>
+                <td>2000</td>
+                <td>For his contributions to science and technology advancement in India.</td>
+            </tr>
+        </table>
+
+            <h4>International Honors</h4>
+            <ul>
+                <li>King Charles II Medal (2007)</li>
+                <li>Hoover Medal (2009)</li>
+                <li>International von Kármán Wings Award (2009)</li>
+                 <li>IEEE Honorary Membership (2011)</li>
+            </ul>
+            <h4>Academic Recognitions</h4>
+            <ol>
+                <li>Carnegie Mellon University (USA)</li>
+                <li>University of Edinburgh (UK)</li>
+                <li>Singapore’s Nanyang Technological University</li>
+                <li>Anna University, Tamil Nadu</li>
+            </ol>
+
+        <h2>Input Controls</h2>
+        <div class="input-controls">
+            Date: <input type="date"><br><br>
+            Range: <input type="range" min="0" max="100"><br><br>
+            Color: <input type="color">
+        </div>
+        <h5 style="font-size: larger;">HIS WORDS INSPIRE A LOT OF STUDENTS AND YOUNGSTERS</h5>
+        <h4 style="font-size: larger;">Let's Hear to some of his words</h4>
+  <button onclick="window.open('https://youtube.com/shorts/OQXanWrIUF8?si=wwGlfJS_2Su9M2ta')">HIS WORDS</button>
+       
+    <h2>And for some interactions .Let's do some math operations</h2>
+    <div class="math-box">
+    <input type="number" id="num1" placeholder="Enter first number"><br><br>
+    <input type="number" id="num2" placeholder="Enter second number"><br><br>
+    <button onclick="addNumbers()">Add Numbers</button>
+    <p id="result"></p>
+    <h2>To register for the tribute to Abdulkalam form</h2>
+    <a href="round3.html">CLICK HERE!</a>
+  </div>
+   </div>
+</body></html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>APJ Abdul Kalam — Web Tasks Demo</title>
+  <style>
+    .container {
+            border: 3px dashed white;
+            padding: 20px;
+            margin-top: 20px;
+    }
+    :root{
+      --bg:#0f172a;
+      --card:#111827;
+      --muted:#94a3b8;
+      --accent:#22d3ee;
+      --accent2:#34d399;
+      --text:#e5e7eb;
+      --danger:#ef4444;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--text);}
+    a{color:var(--accent)}
+    header{position:sticky;top:0;z-index:10;background:#0b1226cc;backdrop-filter:blur(6px);border-bottom:1px solid #1f2937}
+    .wrap{max-width:1000px;margin:0 auto;padding:14px 18px}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand h1{margin:0;font-size:1.25rem}
+    nav{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px}
+    nav a{padding:8px 12px;background:#0b1a34;border:1px solid #1e293b;border-radius:999px;text-decoration:none;font-size:.9rem}
+    main{padding:24px 18px}
+    section{background:var(--card);border:1px solid #1f2937;border-radius:16px;padding:20px;margin:18px auto;max-width:1000px;}
+    h2{margin-top:0}
+
+    .form-container{max-width:640px;margin:0 auto;border-radius:18px;overflow:hidden;border:1px solid #1f2937}
+    .form-header{padding:14px 16px;background:#0b1a34;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1f2937}
+    .leaderboard{font-weight:600}
+    form{display:grid;gap:12px;padding:18px;background:linear-gradient(135deg,#0ea5e9 0%, #22d3ee 35%, #10b981 100%);}
+    label{font-size:.95rem;font-weight:600}
+    input, select, textarea{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #0b1226}
+    .hint{color:#0b1226;font-size:.9rem}
+    .error{color:var(--danger);font-weight:700}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    button{padding:10px 14px;border-radius:12px;border:1px solid #1f2937;background:#0b1226;color:var(--text);cursor:pointer}
+    button:hover{transform:translateY(-1px)}
+
+    .hover-demo{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    .box{padding:16px;border-radius:12px;background:#0b1a34;border:1px solid #1f2937;transition:transform .2s ease, box-shadow .2s ease}
+    .box:hover{transform:translateY(-2px);box-shadow:0 10px 24px #0006}
+    .box ul{margin:8px 0 0 18px}
+
+    .color-tools{display:flex;gap:10px;align-items:center;margin-top:8px}
+    .preview{padding:8px 12px;border:1px dashed #334155;border-radius:12px}
+
+    .trycatch{display:grid;gap:12px;max-width:520px}
+    .code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#0b1a34;border:1px solid #1f2937;padding:12px;border-radius:12px;white-space:pre-wrap}
+
+    footer{color:var(--muted);text-align:center;padding:28px}
+  </style>
+</head>
+<body>
+    <div class="cointainer">
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z" stroke="#22d3ee" stroke-width="1.4"/></svg>
+        <h1 id="siteTitle">Dr. A.P.J. Abdul Kalam — Web Demo</h1>
+      </div>
+      <nav aria-label="Sections">
+        <a href="#form">Registration Form</a>
+        <a href="#validation">Form Validation</a>
+        <a href="#hover">Hover List</a>
+        <a href="#clock">Digital Clock</a>
+        <a href="#dom">DOM Color Change</a>
+        <a href="#trycatch">Try–Catch</a>
+        <a href="#gradient">Gradient</a>
+        <a href="#container">Container Form</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="clock">
+    <h2>4) Digital Clock — Inspired by Abdul Kalam's Punctuality</h2>
+    <div class="form-container">
+      <div class="form-header">
+        <span>Time (Discipline)</span>
+        <span class="leaderboard" id="clockDisplay">--:--:--</span>
+      </div>
+      <div class="code">Dr. Kalam always valued time management. This clock updates every second.</div>
+    </div>
+  </section>
+
+  <section id="form">
+    <h2>1) Registration Form — Tribute to Abdul Kalam</h2>
+    <div class="form-container" id="containerBox">
+      <div class="form-header">
+        <span>Register to Learn (Kalam’s Vision)</span>
+      </div>
+      <form id="regForm" novalidate>
+        <div class="row">
+          <div>
+            <label for="name">Full Name *</label>
+            <input id="name" name="name" type="text" required />
+            <div class="error" id="nameErr"></div>
+          </div>
+          <div>
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required />
+            <div class="error" id="emailErr"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="dept">Field of Interest</label>
+            <select id="dept" name="dept">
+              <option value="">Select…</option>
+              <option>Aerospace</option>
+              <option>Science</option>
+              <option>Engineering</option>
+              <option>Education</option>
+            </select>
+          </div>
+          <div>
+            <label for="phone">Phone *</label>
+            <input id="phone" name="phone" type="tel" required pattern="^[0-9]{10}$" />
+            <div class="error" id="phoneErr"></div>
+          </div>
+        </div>
+        <div>
+          <label for="about">Your Dream (as Kalam encouraged)</label>
+          <textarea id="about" name="about" rows="3"></textarea>
+        </div>
+        <div class="row">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="validation">
+    <h2>2) Form Validation</h2>
+    <p>As Dr. Kalam believed in discipline, we validate inputs strictly:</p>
+    <ul>
+      <li>Name: at least 3 characters.</li>
+      <li>Email: must be valid format.</li>
+      <li>Phone: 10 digits only.</li>
+    </ul>
+  </section>
+
+  <section id="hover">
+    <h2>3) Div Tag with Hover List Examples — Kalam’s Fields</h2>
+    <div class="hover-demo">
+      <div class="box">
+        <strong>Missile Man Contributions</strong>
+        <ul>
+          <li>Agni</li>
+          <li>Prithvi</li>
+          <li>SLV</li>
+        </ul>
+      </div>
+      <div class="box">
+        <strong>Books by Kalam</strong>
+        <ul>
+          <li>Wings of Fire</li>
+          <li>Ignited Minds</li>
+          <li>India 2020</li>
+        </ul>
+      </div>
+      <div class="box">
+        <strong>Qualities</strong>
+        <ul>
+          <li>Simplicity</li>
+          <li>Discipline</li>
+          <li>Inspiration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="dom">
+    <h2>5) DOM Operation — Change the Color of &lt;h1&gt;</h2>
+    <p>Pick a color to honor Kalam’s colorful vision:</p>
+    <div class="color-tools">
+      <input type="color" id="colorPicker" />
+      <button id="applyColor">Apply to Title</button>
+      <div class="preview">Current: <span id="currentColor">#e5e7eb</span></div>
+    </div>
+  </section>
+
+  <section id="trycatch">
+    <h2>6) Try–Catch Example</h2>
+    <label for="age">Enter your age:</label>
+    <input id="age" type="text" />
+    <button id="checkAge">Validate</button>
+    <div id="ageMsg" class="code"></div>
+  </section>
+
+  <section id="gradient">
+    <h2>7) Background Gradient</h2>
+    <p>The registration form uses a gradient symbolizing Kalam’s bright vision for youth.</p>
+  </section>
+
+  <section id="container">
+    <h2>8) Form Inside a Container</h2>
+    <p>Just like Kalam contained immense knowledge, the form is inside a styled container.</p>
+  </section>
+
+  <footer>
+    Tribute Website for Dr. A.P.J. Abdul Kalam — built with HTML, CSS & JS.
+  </footer>
+ 
+<script>
+  function updateClock(){
+    const now = new Date();
+    const pad = (n) => String(n).padStart(2,'0');
+    const time = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+    document.getElementById('clockDisplay').textContent = time;
+  }
+  updateClock(); setInterval(updateClock,1000);
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('regForm');
+    form.addEventListener('submit', function(e){
+      let ok=true;
+      const name=document.getElementById('name');
+      const email=document.getElementById('email');
+      const phone=document.getElementById('phone');
+      ['nameErr','emailErr','phoneErr'].forEach(id=>document.getElementById(id).textContent='');
+      if(name.value.trim().length<3){document.getElementById('nameErr').textContent='Name must be 3+ characters';ok=false;}
+      const emailOk=/\S+@\S+\.\S+/.test(email.value);
+      if(!emailOk){document.getElementById('emailErr').textContent='Invalid email';ok=false;}
+      if(!/^\d{10}$/.test(phone.value)){document.getElementById('phoneErr').textContent='Phone must be 10 digits';ok=false;}
+      if(!ok){e.preventDefault();}else{e.preventDefault();alert('Submitted! In memory of Dr. Kalam');form.reset();}
+    });
+
+    const picker=document.getElementById('colorPicker');
+    const applyBtn=document.getElementById('applyColor');
+    const current=document.getElementById('currentColor');
+    const title=document.getElementById('siteTitle');
+    applyBtn.addEventListener('click',()=>{
+      const color=picker.value;
+      title.style.color=color;
+      current.textContent=color;
+    });
+
+    document.getElementById('checkAge').addEventListener('click',()=>{
+      const msg=document.getElementById('ageMsg');
+      const value=document.getElementById('age').value.trim();
+      try{
+        const n=parseInt(value,10);
+        if(isNaN(n)) throw new Error('Numbers only');
+        if(n<0) throw new Error('Age cannot be negative');
+        msg.textContent = `Valid age: ${n}`;
+      }catch(err){
+        msg.textContent = `Error: ${err.message}`;
+      }
+    });
+  });
+</script>
+</div>
+
+</body>
+</html>
+
